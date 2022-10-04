@@ -10,6 +10,6 @@ jobs:
       steps:
          - uses: actions/checkout@v3
          - run: sudo gem install rspec
-         - run: curl https://35.39.204.164/c4_instructor_spec.rb --output spec/c4_instructor_spec.rb
+         - run: curl https://autograder.computing.gvsu.edu/c4_instructor_spec.rb --output spec/c4_instructor_spec.rb
          - run: rspec spec/c4_student_spec.rb
          - run: rspec spec/c4_instructor_spec.rb
