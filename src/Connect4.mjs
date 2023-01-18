@@ -43,6 +43,8 @@ export default class Connect4 {
 
     fetchColumn(player, callback) {
         io.question(`Player ${player}, which Column? `, line => {
+            let columnLetter = line.trim().substring(0,1);
+            let columnNumber = columnLetter.toUpperCase().charCodeAt(0) - 'A'.charCodeAt();
             console.log(`You requested "${line}"`);
             callback();  // Your callback will probably take parameters.
            });
