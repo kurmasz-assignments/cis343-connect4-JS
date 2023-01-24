@@ -1,6 +1,6 @@
 # Connect 4 in JavaScript
 
-Use this [GitHub Classroom link](https://classroom.github.com/a/vMgWTyI7) to create a repo for this project.
+Use this [GitHub Classroom link](https://classroom.github.com/a/37O5FHiw) to create a repo for this project.
 
 **!!! Important !!!** This is an _individual_ assignment.  You _may not_ work in teams.
 
